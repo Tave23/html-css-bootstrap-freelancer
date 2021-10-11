@@ -6,7 +6,7 @@ header{
    background-color: #2C3E4F;
 }
 
-.box{
+header .box{
    color: white;
 }
 
@@ -17,4 +17,48 @@ header{
 
 .intro-main .row{
    text-align: center;
+}
+
+.intro-main .box{
+   margin-top: 20px;
+   font-size: 30px;
+}
+
+.main{
+   height: 250px;   /* placeholder */
+   text-align: center;
+   padding: 20px 5px;
+}
+
+.main h3{
+   text-transform: uppercase;
+}
+
+.main .box{
+   margin: 10px;
+   padding: 30px;
+}
+
+.box.box-img-one{
+   background-color: #BA4B63;
+}
+
+.box.box-img-two{
+   background-color: #1EA4B6;
+}
+
+.box.box-img-three{
+   background-color: #000000;
+}
+
+.box.box-img-four{
+   background-color: #057EBF;
+}
+
+.box.box-img-five{
+   background-color: #0300AF;
+}
+
+.box.box-img-six{
+   background-color: #CCB2A3;
 }
