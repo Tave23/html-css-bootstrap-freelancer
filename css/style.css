@@ -1,0 +1,11 @@
+.container-fluid{
+   width: 100%;
+}
+
+header{
+   background-color: #2C3E4F;
+}
+
+.box{
+   color: white;
+}
