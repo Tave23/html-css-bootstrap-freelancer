@@ -69,12 +69,19 @@ h3{
    background-color: #CCB2A3;
 }
 
-.about h3{
+.about,
+.support{
+   padding-bottom: 20px;
+}
+
+.about h3,
+.support h3{
    text-align: center;
    padding: 20px 0 10px;
 }
 
-.about .row{
+.about .row,
+.support .row{
    width: 85%;
    margin: 0 auto;
 }
