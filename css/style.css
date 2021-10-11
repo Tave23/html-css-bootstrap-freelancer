@@ -9,3 +9,12 @@ header{
 .box{
    color: white;
 }
+
+.intro-main{
+   background-color: #1ABB9C;
+   height: 250px;   /* placeholder */
+}
+
+.intro-main .row{
+   text-align: center;
+}
