@@ -1,3 +1,5 @@
+/* header */
+
 .container-fluid{
    width: 100%;
 }
@@ -10,6 +12,8 @@ header .box{
    color: white;
 }
 
+/* /header */
+/* main */
 .intro-main{
    background-color: #1ABB9C;
    height: 250px;   /* placeholder */
@@ -81,7 +85,8 @@ h3{
 }
 
 .about .row,
-.support .row{
+.support .row,
+footer .row{
    width: 85%;
    margin: 0 auto;
 }
@@ -89,3 +94,24 @@ h3{
 .about .box{
    padding-top: 10px;
 }
+/* /main */
+/* footer */
+
+footer{
+   background-color: #3A546D;
+   height: 100px; /* placeholder */
+   padding: 10px 0 20px;
+}
+
+footer .row{
+   text-align: center;
+   color: white;
+}
+
+.superfooter{
+   height: 50px; /* placeholder */
+   background-color: #2C3E4F;
+}
+
+/* /footer */
+
