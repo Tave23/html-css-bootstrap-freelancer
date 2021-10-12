@@ -108,7 +108,7 @@ h3{
 }
 
 .main .box img{
-   width: 100%;
+   width: 95%;
 }
 
 .box.box-img-one{
@@ -120,15 +120,15 @@ h3{
 }
 
 .box.box-img-three{
-   background-color: #000000;
+   background-color: #130F0F;
 }
 
 .box.box-img-four{
-   background-color: #057EBF;
+   background-color: #1D83C1;
 }
 
 .box.box-img-five{
-   background-color: #0300AF;
+   background-color: #1037B5;
 }
 
 .box.box-img-six{
@@ -166,6 +166,34 @@ footer .row{
    background-color: #18BB9C;
    border-color: white;
    width: fit-content;
+}
+
+.overlay{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   visibility: hidden;
+   transition: background-color 0.5s;
+   border-radius: 5px;
+}
+
+.overlay i{
+   font-size: 40px;
+   color: white;
+} 
+
+.main .row .box{
+   position: relative;
+}
+
+.main .row .box:hover .overlay{
+  visibility: visible;
+  background-color: rgba(24, 157, 156, 0.7)
 }
 
 /* /main */
