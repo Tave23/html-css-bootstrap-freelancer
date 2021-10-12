@@ -13,6 +13,7 @@ header{
    height: 50px;
 }
 
+
 .box a{
    vertical-align: middle;
    line-height: 50px;
@@ -40,7 +41,6 @@ header li{
 /* main */
 .intro-main{
    background-color: #1ABB9C;
-   height: 250px;   /* placeholder */
    color: white;
    padding-top: 50px ;
 }
@@ -52,11 +52,34 @@ header li{
 
 .intro-main .row{
    text-align: center;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.text-main{
+   width: 25%;
+   min-width: 350px;
+   margin: 0 auto;
+   text-transform: uppercase;
+}
+
+.text-main p{
+   font-size: 12px;
 }
 
 .intro-main .box{
    margin-top: 20px;
    font-size: 30px;
+}
+
+.img-main{
+   width: 25%;
+   min-width: 300px;
+   margin: 0 auto;
+}
+
+.img-main img{
+   width: 40%;
 }
 
 .main{
