@@ -13,6 +13,9 @@ header{
    height: 50px;
 }
 
+header .td-row{
+   margin: 0 !important;
+}
 
 .box a{
    vertical-align: middle;
@@ -105,7 +108,7 @@ h3{
 }
 
 .main .box img{
-   width: 95%;
+   width: 100%;
 }
 
 .box.box-img-one{
@@ -166,6 +169,24 @@ footer .row{
 }
 
 /* /main */
+/* contact me */
+
+form{
+   padding-top: 30px;
+}
+
+.dt-custom-border{
+   border: none;
+   border-bottom: 1px solid lightgray;
+   border-radius: 0;
+}
+
+.dt-bg-green{
+   background-color: #1ABC9C;
+   border-color: #1ABC9C;
+}
+
+/* /contact me */
 /* footer */
 
 footer{

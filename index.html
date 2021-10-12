@@ -12,13 +12,13 @@
 <body>
 <!-- header -->
    <header class="container-fluid lh-lg">
-      <div class="row">
+      <div class="row td-row">
          <div class="offset-sm-1 col-sm-5 col-6 offset-lg-2 col-lg-4">
             <div class="box">
                <a href="#">start bootstrap</a>
             </div>
          </div>
-         <div class="offset-sm-1 col-sm-5 col-6 text-sm-center text-end col-lg-5 offset-lg-1">
+         <div class="offset-sm-1 col-sm-5 col-6 text-sm-center text-end col-lg-4 offset-lg-2">
             <div class="box">
                <div class="d-none d-sm-block">
                   <ul>
@@ -107,20 +107,25 @@
 <!-- main CONTACT ME -->
    <section class="container-fluid support">
       <h3>contact me</h3>
-      <div class="row">
-         <div class="col-12">
-            <div class="box">Name</div>
-         </div>
-         <div class="col-12">
-            <div class="box">Email address</div>
-         </div>
-         <div class="col-12">
-            <div class="box">Phone number</div>
-         </div>
-         <div class="col-12">
-            <div class="box">Message</div>
-         </div>
+      
+      <div class="container">
+         <form action="">
+            <div class="mb-3">
+               <input type="email" class="form-control dt-custom-border" id="exampleFormControlInput1" placeholder="Name">
+            </div>
+            <div class="mb-3">
+               <input type="email" class="form-control dt-custom-border" id="exampleFormControlInput1" placeholder="Email Address">
+            </div>
+            <div class="mb-3">
+               <input type="email" class="form-control dt-custom-border" id="exampleFormControlInput1" placeholder="Phone Number">
+            </div>
+            <div class="mb-3">
+               <textarea class="form-control dt-custom-border" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+            </div>
+            <div class="btn btn-success dt-bg-green">Send</div>
+         </form>
       </div>
+
    </section>
 <!-- /main CONTACT ME -->
 <!-- footer -->
