@@ -8,6 +8,9 @@ header{
    position: fixed;
    height: 50px;
    width: 100vw;
+   top: 0;
+   left: 0;
+   z-index: 999;
 }
 
 header .td-row{
@@ -211,6 +214,11 @@ form h3{
    border-radius: 0;
 }
 
+.dt-custom-border:focus{
+   box-shadow: none;
+   border-color: lightgray;
+}
+
 .dt-bg-green{
    background-color: #1ABC9C;
    border-color: #1ABC9C;
@@ -221,6 +229,7 @@ form h3{
    color: black;
    border-color: black ;
 }
+
 
 /* /contact me */
 /* footer */
@@ -281,9 +290,18 @@ footer .box p{
    margin-bottom: 20px;
 }
 
-.satanic-row .td-line{
+.main .satanic-row .td-line,
+.support .satanic-row .td-line{
+   background-color: #2C3E50;
+}
+
+.main .satanic-row i{
+   font-size: 30px;
+}
+
+.td-line{
    width: 40%;
    height: 5px;
    border-radius: 5px;
-   color: white;
+   background-color: white;
 }
