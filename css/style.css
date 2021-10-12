@@ -1,9 +1,5 @@
 /* header */
 
-.container-fluid{
-   width: 100%;
-}
-
 header{
    background-color: #2C3E4F;
    color: white;
@@ -11,6 +7,7 @@ header{
    text-transform: uppercase;
    position: fixed;
    height: 50px;
+   width: 100vw;
 }
 
 header .td-row{
@@ -160,12 +157,13 @@ footer .row{
 
 .about .btn{
    margin: 0 auto;
+   border:1px solid white;
 }
 
 .dt-btn{
    background-color: #18BB9C;
-   border-color: white;
    width: fit-content;
+   
 }
 
 .overlay{
@@ -203,6 +201,10 @@ form{
    padding: 30px 0;
 }
 
+form h3{
+   margin: 30px;
+}
+
 .dt-custom-border{
    border: none;
    border-bottom: 1px solid lightgray;
@@ -212,6 +214,12 @@ form{
 .dt-bg-green{
    background-color: #1ABC9C;
    border-color: #1ABC9C;
+}
+
+.dt-bg-green:hover{
+   background-color: white;
+   color: black;
+   border-color: black ;
 }
 
 /* /contact me */
@@ -262,3 +270,20 @@ footer .box p{
 
 /* /footer */
 
+/* bonus satanico */
+
+.satanic-row{
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.satanic-row .td-line{
+   width: 40%;
+   height: 5px;
+   border-radius: 5px;
+   color: white;
+}
